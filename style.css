@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    letter-spacing: 1px;
+  }
+  .text-primary{
+    color: #2bbbad;
+  }
+  label{
+    font-size: 1.5rem;
+  }
+  .table{
+    margin-top: 3rem;
+  }
+  td{
+    background-color: rgb(211, 210, 210);
+    border: none;
+  }
+  .danger{
+   background-color: crimson;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+  }
+  .success{
+    background-color: rgb(0, 153, 255);
+  }
+  .bars{
+    padding: 0rem 0rem 0rem 2rem;
+    display: none;
+  }
+  .icon{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: ease-out 500ms;
+  }
+  .icon:hover{
+    color: #2bbbad;
+    transition: all ease-in 200ms;
+  }
+  .list{
+    display: non;
+    margin-left: 5rem;
+  }
+  .phone-nav{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 50%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  .close{
+    margin-left: 80%;
+    font-size: 2rem;
+    color: white;
+    transition: all ease 1s;
+  }
+  .side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .side-bar a {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: white;
+  }
+  .side-bar a:hover{
+    text-decoration: underline;
+    transition: all ease-in 500ms;
+  }
+  .logo{
+    margin-right: 5rem;
+    font-size: 2.4rem;
+  }
+  nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 600px){
+    .bars{
+      display: block;
+    }
+    .list{
+      display: none;
+    }
+    .side-nav{
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+  }
+  
+  
+  
